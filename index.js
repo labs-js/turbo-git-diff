@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-module.exports = function () {
-    require('./lib/diff');
+module.exports = (args) => {
+    require('./lib/diff')(args);
 };
 
