@@ -7,9 +7,12 @@
 
 # turbo-git-diff
 
-New improved diff for git. So far, This project is just a wrapper for use [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) project.
+New improved diff for git. This project is just a wrapper for use [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) project on [Turbo Git](https://github.com/labs-js/turbo-git).
 
-#### This lib is part of the [Turbo Git](https://github.com/labs-js/turbo-git) -> Making your git even more awesome 😎🙌
+<h2 align="center">Preview</h2>
+<p align="center">
+    <img alt="diff-screenshot" src="https://raw.githubusercontent.com/labs-js/turbo-git-diff/master/screenshots/1.png" width="600">
+</p>
 
 ## Install
 ```
@@ -19,5 +22,5 @@ npm install --save turbo-git-diff
 ## how to use it:
 
 ```javascript
-require('turbo-git-diff')()
+require('turbo-git-diff')(gitArgs)
 ```
