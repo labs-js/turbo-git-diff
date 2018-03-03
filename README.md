@@ -11,8 +11,13 @@ New improved diff for git. So far, This project is just a wrapper for use [diff-
 
 #### This lib is part of the [Turbo Git](https://github.com/labs-js/turbo-git) -> Making your git even more awesome 😎🙌
 
-## how to use it:
-
+## Install
 ```
 npm install --save turbo-git-diff
+```
+
+## how to use it:
+
+```javascript
+require('turbo-git-diff')()
 ```
