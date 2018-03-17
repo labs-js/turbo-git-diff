@@ -1,6 +1,6 @@
 {
   "name": "turbo-git-diff",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "improved git diff project wrapper",
   "main": "index.js",
   "scripts": {
