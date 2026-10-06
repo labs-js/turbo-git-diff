@@ -4,7 +4,8 @@
   "description": "improved git diff project wrapper",
   "main": "index.js",
   "scripts": {
-    "test": "nyc jasmine-node --verbose --captureExceptions test"
+    "test": "nyc jasmine-node --verbose --captureExceptions test",
+    "prepublishOnly": "npm test"
   },
   "dependencies": {
     "diff-so-fancy": "~1.2.6"
