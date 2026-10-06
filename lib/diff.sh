@@ -13,7 +13,11 @@ case "$(uname -s)" in
         ;;
 esac
 
-path="$(dirname "$0")/../../node_modules/diff-so-fancy/diff-so-fancy"
+# Candidate locations for the diff-so-fancy executable, in order:
+# 1. hoisted consumer install:  <root>/node_modules/diff-so-fancy
+#    (lib/diff.sh sits at <root>/node_modules/turbo-git-diff/lib)
+# 2. nested install or local clone: <pkg>/node_modules/diff-so-fancy
+path="$(dirname "$0")/../../diff-so-fancy/diff-so-fancy"
 
 if [ ! -f "$path" ]; then
     path="$(dirname "$0")/../node_modules/diff-so-fancy/diff-so-fancy"
